@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  margin-left: 4%;
+  max-width: 20%;
+}
+
+.container img {
+  max-width: 100%;
+  filter: brightness(50%);
+}
+
+.centered {
+  font-size: 3vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+ul {
+  background-color: rgb(26, 26, 26);
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+}
+
+li {
+  margin: 3% 3% 0 0;
+  float: right;
+  background-color: rgb(26, 26, 26);
+}
+
+li a {
+  font-size: 1.5vw;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 35px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #009205;
+  border-radius: 2px;
+  color: white;
+}
+
+.active {
+  font-weight: bolder;
+  border-bottom-style: solid;
+  border-width: 3px;
+  border-color: #009205;
+}
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  color: rgb(177, 177, 177);
+  text-align: center;
+  font-size: 14px;
+  background-color: rgb(26, 26, 26);
+}
+
+.home-container1 {
+  overflow: auto;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.item {
+  float: left;
+  margin: 5%;
+  width: 40%;
+  border-radius: 2px;
+}
+
+.item h3 {
+  font-size: 2vw;
+  margin-top: 15%;
+}
+
+.home-container2 {
+  overflow: auto;
+  text-align: center;
+  background-color: rgb(231, 231, 231);
+}
+
+.home-container2 h3 {
+  font-size: 2vw;
+  margin-top: 5%;
+}
+
+.services {
+  max-width: 30%;
+  margin: 5%;
+}
+
+.about-container {
+  background-color: rgb(231, 231, 231);
+  width: 90%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: auto;
+}
+
+.paragraph {
+  font-size: 1.5vw;
+}
+
+.about-container h3 {
+  font-size: 2vw;
+  margin-top: 15%;
+}
+
+.about-container img {
+  filter: contrast(150%);
+}
+
+.footer-container {
+  overflow: auto;
+}
+
+.footer-item {
+  text-decoration: none;
+  margin: 4%;
+  float: left;
+  width: 15%;
+}
+
+.footer-item h3 {
+font-size: 1.2vw;
+}
+
+.footer-item p {
+  font-size: 1vw;
+  }
+
+.footer-item a {
+  text-decoration: none;
+  color: rgb(0, 100, 194);
+}
+
+.footer-container img {
+  margin-left: 30%;
+}
+
+.copyright {
+  font-size: 1.1vw;
+  padding-top: 3%;
+  width: 50%;
+  margin: auto;
+  border-top-style: solid;
+  border-top-color: #009205;
+}
