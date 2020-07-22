@@ -4,8 +4,13 @@ body {
 }
 
 .logo {
-  margin-left: 4%;
+  margin-left: 1%;
+  min-width: 150px;
   max-width: 20%;
+}
+
+.logo:hover {
+  transform: scale(1.03);
 }
 
 .container img {
@@ -34,7 +39,7 @@ ul {
 }
 
 li {
-  margin: 3% 3% 0 0;
+  margin: 3.5% 1% 0 0;
   float: right;
   background-color: rgb(26, 26, 26);
 }
@@ -44,7 +49,7 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 12px 35px;
+  padding: 12px 25px;
   text-decoration: none;
 }
 
@@ -140,12 +145,12 @@ footer {
 }
 
 .footer-item h3 {
-font-size: 1.2vw;
+  font-size: 1.2vw;
 }
 
 .footer-item p {
   font-size: 1vw;
-  }
+}
 
 .footer-item a {
   text-decoration: none;
@@ -159,8 +164,47 @@ font-size: 1.2vw;
 .copyright {
   font-size: 1.1vw;
   padding-top: 3%;
-  width: 50%;
+  width: 60%;
   margin: auto;
   border-top-style: solid;
   border-top-color: #009205;
+}
+
+.card-container {
+  overflow: auto;
+  margin-top: 5%;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  min-width: 200px;
+  width: 20%;
+  margin-left: 10%;
+  margin-bottom: 5%;
+  text-align: center;
+  font-family: arial;
+  float: left;
+}
+.card img {
+  height: 200px;
+}
+.price {
+  color: grey;
+  font-size: 21px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: rgb(26, 26, 26);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
 }
